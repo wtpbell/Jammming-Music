@@ -1,0 +1,126 @@
+html {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  background: url("./cassette-tape.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: var(--clr-grey-4);
+  padding: 0.1rem;
+  text-align: center;
+  width: 100vw;
+}
+
+em {
+  color: var(--clr-primary-5);
+}
+
+.appContainer {
+  background-color: var(--clr-yellow);
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  width: 80vw;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--radius);
+  margin: 10rem auto;
+  /* top: 10rem;
+  left: 10rem; */
+}
+
+.loginHeader {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.appName {
+  font-size: 3rem;
+  color: rgb(43, 43, 43);
+}
+
+.loginBtn {
+  border: var(--radius);
+  padding: 1rem;
+  background-color: var(--clr-primary-5);
+  cursor: pointer;
+}
+
+.loginBtn:hover {
+  background-image: var(--clr-top-left-gradient);
+  color: rgb(237, 234, 234)
+}
+
+.loginTitle {
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: rgb(237, 234, 234)
+}
+
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sayHello {
+  align-self: start;
+  margin: 1rem 4rem 0rem 4rem;
+}
+
+.question {
+  align-self: start;
+  margin: 0rem 4rem 2rem 4rem;
+}
+
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .loginPage {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sayHello {
+    margin: 1rem 1rem 0rem;
+  }
+
+  .question {
+    margin: 0rem 1rem 2rem;
+  }
+
+  .searchContainer {
+    padding: 0rem 3rem;
+  }
+
+  .playlistContainer {
+    margin-top: 9.4rem;
+  }
+}

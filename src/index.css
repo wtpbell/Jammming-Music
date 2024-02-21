@@ -1,0 +1,61 @@
+:root{
+  /* dark shades of primary color*/
+  --clr-primary-1: rgb(34, 111, 135);
+  --clr-primary-2: rgb(47, 142, 152);
+  --clr-primary-3: rgb(74, 196, 184);
+  --clr-primary-4: rgb(90, 226, 201);
+  /* primary/main color */
+  --clr-primary-5: rgb(102, 255, 217);
+  /* lighter shades of primary color */
+  --clr-primary-6:  rgb(124, 252, 220);
+  --clr-primary-7:  rgb(161, 251, 228);
+  --clr-primary-8:  rgb(190, 251, 236);
+  --clr-primary-9:  rgb(212, 250, 241);
+  --clr-primary-10: rgb(221, 252, 245);
+  /* darkest grey - used for headings */
+  --clr-grey-1: rgb(11, 47, 67);
+  --clr-grey-2: rgb(8, 49, 72);
+  --clr-grey-3: rgb(6, 61, 90);
+  --clr-grey-4: rgb(4, 57, 86);
+  /* grey used for paragraphs */
+  --clr-grey-5: rgb(95, 168, 166);
+  --clr-grey-6: rgb(127, 180, 178);
+  --clr-grey-7: rgb(176, 212, 212);
+  --clr-grey-8: rgb(199, 219, 218);
+  --clr-white: rgb(245, 243, 243);
+  --clr-red-dark: rgb(187, 37, 37);
+  --clr-red-light: rgb(230, 107, 107);
+  --clr-green-dark: rgb(26, 142, 36);
+  --clr-green-light: rgb(107, 230, 117);
+  --clr-top-gradient: linear-gradient(0deg, #145277ff, #1A5E7Eff, #206B85ff, #25778Cff, #2B8393ff, #31909Aff, #379CA1ff, #3DA9A8ff, #42B5AEff, #48C1B5ff, #4ECEBCff, #54DAC3ff, #59E6CAff, #5FF3D1ff, #65FFD8ff);
+  --clr-top-left-gradient: linear-gradient(225deg, #145277ff, #1A5E7Eff, #206B85ff, #25778Cff, #2B8393ff, #31909Aff, #379CA1ff, #3DA9A8ff, #42B5AEff, #48C1B5ff, #4ECEBCff, #54DAC3ff, #59E6CAff, #5FF3D1ff, #65FFD8ff);
+  --clr-radial-gradient: (#145277ff, #1A5E7Eff, #206B85ff, #25778Cff, #2B8393ff, #31909Aff, #379CA1ff, #3DA9A8ff, #42B5AEff, #48C1B5ff, #4ECEBCff, #54DAC3ff, #59E6CAff, #5FF3D1ff, #65FFD8ff);
+  --clr-black: rgb(34, 34, 34);
+  --clr-gold: rgb(197, 157, 95);
+  --clr-yellow: rgba(245, 245, 220, 0.915);
+  --ff-primary: 'Encode Sans', sans-serif;
+  --ff-secondary: 'Roboto', sans-serif;
+  --transition: all 0.3s linear;
+  --spacing: 0.5rem;
+  --radius: 0.4rem;
+  --light-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  --max-width: 1170px;
+  --fixed-width: 620px;
+
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: var(--ff-primary), var(--ff-secondary), 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: var(--ff-primary), var(--ff-secondary),source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
