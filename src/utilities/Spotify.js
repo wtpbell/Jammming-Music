@@ -1,9 +1,7 @@
 const AUTH_URL = 'https://accounts.spotify.com/authorize';
-const ACCESS_TOKEN_URL = 'https://accounts.spotify.com/api/token';
-const REDIRECT_URI = 'http://localhost:3000';
-const API_URL = 'https://api.spotify.com/v1';
-const SCOPE = 'playlist-modify-public';
-const RESPONSE_TYPE = 'token';
+const REDIRECT_URI = "https://jammingmusic.netlify.app";
+const CLIENT_ID = process.env.REACT_APP_CLIENT_ID
+
 
 let accessToken;
 let userId;
@@ -11,7 +9,7 @@ let userId;
 
 const Spotify = {
     getAuth() {
-        const tokenURL = `${AUTH_URL}?client_id=${process.env.CLIENT_ID}&response_type=token&scope=playlist-modify-public&redirect_uri=${REDIRECT_URI}`;
+        const tokenURL = `${AUTH_URL}?client_id=${CLIENT_ID}&response_type=token&scope=playlist-modify-public&redirect_uri=${REDIRECT_URI}`;
         window.location = tokenURL;
     },
 
