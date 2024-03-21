@@ -10,7 +10,7 @@ const Track = ({track, albumImg, artistName, albumName, songName, onClick, track
         <>
         <div className="Track">
             <div className="track-container">
-                <img className="track-image" src={albumImg} />
+                <img className="track-image" src={albumImg} alt={songName}/>
                 <div className="track-info">
                     <h3 className="track-name">{songName}</h3>
                     <p className="track-artist">{artistName} | {albumName}</p>
